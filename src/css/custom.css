@@ -1,0 +1,123 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url('https://fonts.bunny.net/css?family=poppins:300,400,400i,500,600,700');
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #a1243f;
+    --ifm-color-primary-dark: #841930;
+    --ifm-color-primary-darker: #72192c;
+    --ifm-color-primary-darkest: #641223;
+    --ifm-color-primary-light: #c62848;
+    --ifm-color-primary-lighter: #d67980;
+    --ifm-color-primary-lightest: #f49ca2;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --ifm-font-family-base: 'Poppins', sans-serif;
+    --ifm-h1-font-size: 2rem;
+    --ifm-font-color-base: #2e2a25;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+    --ifm-color-primary: #d67980;
+    --ifm-color-primary-dark: #e55b77;
+    --ifm-color-primary-darker: #d7405f;
+    --ifm-color-primary-darkest: #c62848;
+    --ifm-color-primary-light: #e5868d;
+    --ifm-color-primary-lighter: #f3979e;
+    --ifm-color-primary-lightest: #f6a5ab;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+    --ifm-font-color-base: #ffffff;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+article li,
+article p,
+article pre {
+    font-size: 1.15rem;
+}
+
+article code {
+    padding: 0.1rem 0.5rem;
+    color: var(--ifm-color-primary);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer--dark {
+    --ifm-footer-background-color: #4d4c4c;
+
+}
+
+[data-theme='dark'] .footer--dark {
+--ifm-footer-background-color: #0f0f0f;
+}
+
+.cardDescription_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module {
+    font-size: 1rem !important;
+}
+
+.hero {
+    min-height: 25rem;
+}
+
+.start-feature-item{
+    color: var(--ifm-font-color-base);
+}
+.start-feature-item:hover {
+    text-decoration: none;
+    color: var(--ifm-font-color-base);
+}
+
+.teaser-cta-link{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 0;
+    color: var(--ifm-color-primary);
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    transform: translateZ(0);
+}
+
+.teaser-cta-link:before{
+    background-color: currentColor;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transition: all 0.25s ease-in-out 0s;
+    visibility: hidden;
+    width: 100%;
+}
+
+.teaser-cta-link:hover:before{
+    transform: scaleX(1);
+    visibility: visible;
+}
+
+.teaser-cta-link:after{
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: var(--ifm-color-primary);
+    content: " »";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    margin-left: 0.5em;
+    transition: right 0.25s ease-in-out;
+    vertical-align: middle;
+}
