@@ -56,7 +56,7 @@ Om du vill bestämma själv var filerna ska sparas högerklickar du på knappen 
 Filerna laddas ner som en .zip-fil och den behöver packas upp för att du ska komma åt de enskilda filerna. Det görs normalt genom att högerklicka på filen i Utforskaren/Finder och välja packa upp.
 
 ## Spara som favorit
-Om du är inloggad kan du markera ett material som favorit. Det är då enkelt att hitta tillbaka till. Mer information under ["Materialbanken"](/docs/category/materialbanken) och ["Planeringsverktyget"](docs/category/planeringsverktyget).
+Om du är inloggad kan du markera ett material som favorit. Det är då enkelt att hitta tillbaka till. Mer information under ["Materialbanken"](/docs/category/materialbanken) och ["Planeringsverktyget"](#).
 
 ## Kategori, Passar till och Moment
 I den grå informationsrutan ser du vilka kategorier, moment och tillfällen som materialet passar till. Detta är förslag för att lättare hitta materialet och för att vara till hjälp i planeringen.
