@@ -16,7 +16,10 @@ När du är inloggad kan du bland annat favoritmarkera material och mallar, plan
 
 Fyll i förnamn, efternamn och din e-postadress.
 
-Välj ett bra och säkert lösenord. (Minst 8 tecken) och skriv in det i rutorna "Lösenord" och "Bekräfta lösenordet".
+Välj ett lösenord och skriv det i rutorna "Lösenord" och "Bekräfta lösenordet".
+
+:::tip Lösenordet måste ha minst 8 tecken
+:::
 
 ![Steg 2 - fyll i uppgifterna](assets/skapa-konto-02.png)
 
@@ -32,8 +35,8 @@ Välj ett bra och säkert lösenord. (Minst 8 tecken) och skriv in det i rutorna
 ### 5. Verifiera e-postadressen
 Innan du kan använda gudstjänstwebben fullt ut behöver du verifiera din e-postadress. Det gör du via det mail som skickas till den e-postadress du angett när du skapade kontot.
 
-Obs! Länken för bekräftelsen är giltig i 60 minuter.
-
+:::tip Länken för bekräftelsen är giltig i 60 minuter.
+:::
 
 ### 6. Starta ditt e-postprogram och klicka på mailet från Gudstjänstwebben.
 ![Steg 6 - klicka på e-post](assets/skapa-konto-05.png)
